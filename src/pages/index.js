@@ -457,7 +457,7 @@ export default function HomePage() {
         <meta property="og:title" content="Jason Guijo | Portfolio" />
         <meta
           property="og:description"
-          content="Explore systems projects, process maps, and practical full-stack workflows in a custom cartoon-inspired portfolio."
+          content="Take a look at my projects, process maps, and the full-stack workflows I use to build real-world systems."
         />
         <meta property="og:image" content="/og-regularshow-portfolio.png" />
         <meta property="og:image:width" content="1200" />
