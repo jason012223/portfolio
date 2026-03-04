@@ -1,0 +1,60 @@
+<svg width="1800" height="360" viewBox="0 0 1800 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stylized park silhouette background">
+  <defs>
+    <linearGradient id="treeTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#244d2a" />
+      <stop offset="100%" stop-color="#17351e" />
+    </linearGradient>
+    <linearGradient id="groundTone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#315f31" />
+      <stop offset="50%" stop-color="#2b582d" />
+      <stop offset="100%" stop-color="#315f31" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="288" width="1800" height="72" fill="url(#groundTone)" />
+
+  <g fill="url(#treeTone)">
+    <rect x="70" y="118" width="28" height="184" rx="6" />
+    <ellipse cx="84" cy="104" rx="54" ry="46" />
+    <ellipse cx="116" cy="132" rx="40" ry="36" />
+    <ellipse cx="48" cy="136" rx="35" ry="30" />
+
+    <rect x="310" y="92" width="24" height="208" rx="6" />
+    <ellipse cx="322" cy="82" rx="48" ry="42" />
+    <ellipse cx="350" cy="108" rx="36" ry="30" />
+    <ellipse cx="292" cy="112" rx="32" ry="28" />
+
+    <rect x="628" y="104" width="28" height="198" rx="6" />
+    <ellipse cx="644" cy="92" rx="62" ry="50" />
+    <ellipse cx="682" cy="122" rx="46" ry="34" />
+    <ellipse cx="604" cy="126" rx="42" ry="32" />
+
+    <rect x="920" y="110" width="22" height="194" rx="6" />
+    <ellipse cx="932" cy="98" rx="50" ry="42" />
+    <ellipse cx="960" cy="124" rx="34" ry="30" />
+    <ellipse cx="904" cy="126" rx="30" ry="26" />
+
+    <rect x="1218" y="90" width="26" height="210" rx="6" />
+    <ellipse cx="1232" cy="78" rx="58" ry="48" />
+    <ellipse cx="1268" cy="112" rx="38" ry="32" />
+    <ellipse cx="1192" cy="116" rx="36" ry="30" />
+
+    <rect x="1512" y="106" width="28" height="196" rx="6" />
+    <ellipse cx="1526" cy="96" rx="56" ry="44" />
+    <ellipse cx="1562" cy="124" rx="44" ry="34" />
+    <ellipse cx="1486" cy="130" rx="36" ry="30" />
+  </g>
+
+  <g fill="#132f19">
+    <rect x="420" y="248" width="138" height="12" rx="4" />
+    <rect x="438" y="230" width="100" height="12" rx="4" />
+    <rect x="452" y="260" width="10" height="30" rx="3" />
+    <rect x="516" y="260" width="10" height="30" rx="3" />
+
+    <circle cx="1080" cy="276" r="16" />
+    <circle cx="1122" cy="276" r="16" />
+    <rect x="1086" y="242" width="54" height="18" rx="5" />
+    <rect x="1102" y="226" width="22" height="18" rx="4" />
+    <rect x="1070" y="254" width="28" height="8" rx="3" />
+  </g>
+</svg>
