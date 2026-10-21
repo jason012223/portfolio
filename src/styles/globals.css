@@ -994,6 +994,11 @@ main::after {
     linear-gradient(130deg, #11212e 0%, #284a64 48%, #3c6c78 100%);
 }
 
+.projArtKanto {
+  background:
+    linear-gradient(130deg, #2b1a12 0%, #6b4226 48%, #b07a4a 100%);
+}
+
 .projTitle {
   margin-bottom: 6px;
   font-size: 1.08rem;
@@ -1126,6 +1131,10 @@ main::after {
 
 .projSceneMuseum {
   border-left: 6px solid #4e8aa6;
+}
+
+.projSceneKanto {
+  border-left: 6px solid #b07a4a;
 }
 
 .projList {

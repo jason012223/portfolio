@@ -808,6 +808,64 @@ export default function HomePage() {
                   </div>
                 </div>
               </article>
+              <article className="projCard">
+                <button
+                  type="button"
+                  className="projHead"
+                  onClick={() => toggle("kanto")}
+                  aria-expanded={open === "kanto"}
+                >
+                  <div>
+                    <div className="projArt projArtKanto" aria-hidden="true">
+                      <span>Neighborhood Cafe Counter</span>
+                    </div>
+                    <div className="projTitle">Kanto&apos;t Coffee Website</div>
+                    <div className="projDesc">
+                      A client-pitch landing page for a local coffee shop, with a matching WordPress
+                      block theme the owner can edit.
+                    </div>
+                    <div className="projChips">
+                      <span className="chip">HTML/CSS/JS</span>
+                      <span className="chip">WordPress Theme</span>
+                      <span className="chip">GitHub Actions</span>
+                      <span className="chip">Vercel</span>
+                    </div>
+                  </div>
+                  <div className="projToggle">{open === "kanto" ? "-" : "+"}</div>
+                </button>
+
+                <div className={open === "kanto" ? "projBody open" : "projBody"}>
+                  <div className="projSceneStrip projSceneKanto">
+                    <span className="projSceneTag">Scene strip</span>
+                    <span className="projSceneText">Browse the menu to view the gallery to find a branch</span>
+                  </div>
+                  <div className="projBodyTitle">System highlights</div>
+                  <ul className="projList">
+                    <li>Static, build-free site: menu, photo carousel, gallery lightbox, and branch map</li>
+                    <li>WordPress block theme with the same design so the owner can edit text and prices</li>
+                    <li>GitHub Actions workflow deploys theme changes over FTP on every push to main</li>
+                  </ul>
+
+                  <div className="projLinks">
+                    <a
+                      className="btnGhost"
+                      href="https://kanto-at-coffee.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live site
+                    </a>
+                    <a
+                      className="btnGhost"
+                      href="https://github.com/jason012223"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
         </section>
